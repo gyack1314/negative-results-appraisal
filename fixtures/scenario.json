@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "fields": [
+    "study_id",
+    "protocol",
+    "state",
+    "observed",
+    "effect",
+    "review"
+  ],
+  "records": [
+    {
+      "study_id": "s-a",
+      "protocol": "p1",
+      "state": "complete",
+      "observed": "true",
+      "effect": "below_threshold",
+      "review": "confirmed"
+    },
+    {
+      "study_id": "s-b",
+      "protocol": "p1",
+      "state": "not_started",
+      "observed": "false",
+      "effect": "",
+      "review": "pending"
+    },
+    {
+      "study_id": "s-c",
+      "protocol": "p2",
+      "state": "measurement_failed",
+      "observed": "false",
+      "effect": "",
+      "review": "confirmed"
+    },
+    {
+      "study_id": "s-d",
+      "protocol": "p2",
+      "state": "complete",
+      "observed": "true",
+      "effect": "negative",
+      "review": "pending"
+    }
+  ]
+}
